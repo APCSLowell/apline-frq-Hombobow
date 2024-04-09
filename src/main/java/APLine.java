@@ -3,9 +3,9 @@ public class APLine
   /* your code here */
   private int A, B, C;
   public APLine(int a, int b, int c) {
-    int A = a;
-    int B = b;
-    int C = c;
+    A = a;
+    B = b;
+    C = c;
   }
   public double getSlope() {
     return ((double) -A) / ((double) B);
